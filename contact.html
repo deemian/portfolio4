@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/contact.css">
+    <title>Demian's Portfolio</title>
+</head>
+
+<body>
+
+    <header id="hero">
+        <h1> Wie is Demian Horvat? </h1>
+    </header>
+
+    <nav id="headernav">
+        <a href="./index.html"> Wie ben ik? </a>
+        <a href="./educatie.html"> Mijn Educatie </a>
+        <a href="./skills.html"> Mijn Skills </a>
+        <a href="./projecten.html"> Mijn Projecten </a>
+        <a href="./contact.html"> Contact </a>
+
+
+    </nav>
+
+    <a name="dynabook"></a>
+
+    <main>
+
+        <div class="title">
+            <h1> Contact </h1>
+        </div>
+
+        <section id="forms">
+            <form action="contact-bedankt.html">
+
+                <div class="formrule">
+                    <label for="name"> Voornaam </label>
+                    <input id="name" name="name" type="text" placeholder="Typ hier je naam" required>
+                </div>
+
+                <div class="formrule">
+                    <label for="city"> Woonplaats </label>
+                    <input id="city" name="city" type="text" placeholder="Typ hier je woonplaats" required>
+                </div>
+
+                <div class="formrule">
+                    <label for="email"> Email </label>
+                    <input id="email" name="email" type="email" placeholder="example@hr.nl" required>
+                </div>
+
+                <div class="formrule">
+                    <label for="date"> Datum </label>
+                    <input id="date" name="date" type="date" placeholder="Typ hier de datum" required>
+                </div>
+
+                <h3> Onderwerp </h3>
+
+                <div class="formrule">
+
+                    <label for="category">Ik heb een vraag over:</label>
+                    <select requireds name="category" id="category">
+                        <option disabled selected>Kies een onderwerp</option>
+                        <option value="MCDonalds">MCDonalds</option>
+                        <option value="Burger King">Burger King</option>
+                        <option value="Ikea">Ikea</option>
+                        <option value="Ecoplaza">De Ecoplaza</option>
+                    </select>
+                </div>
+
+                <div class="formrule">
+                    <label for="question"> Mijn vraag </label>
+                    <textarea required id="question" name="question" rows="7" columns="20"
+                        placeholder="Typ hier je vraag"></textarea>
+                </div>
+
+                <h3> Voorkeuren </h3>
+
+                <div>
+                    <input id="news" name="news" type="checkbox">
+                    <label for="news"> Schrijf me in voor de nieuwsbrief </label>
+                </div>
+
+                <div>
+                    <input id="agree" name="agree" type="checkbox" required>
+                    <label for="agree"> Ik ga akkoord met de voorwaarden </label>
+                </div>
+
+
+                <div>
+                    <button type="submit"> Versturen </button>
+                </div>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            © 2022 Demian Horvat. Alle rechten voorbehouden.
+        </p>
+
+        <nav id="footernav">
+            <a href="https://www.hogeschoolrotterdam.nl/" target="_blank"> Hogeschool Rotterdam</a>
+            <a href="https://github.com/deemian" target="_blank"> Github</a>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"> Rick Roll</a>
+        </nav>
+    </footer>
+
+</body>
+
+
+</body>
+
+</html>
